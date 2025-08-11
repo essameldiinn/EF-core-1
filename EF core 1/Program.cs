@@ -7,17 +7,22 @@
             CompanyDbContext db = new CompanyDbContext();
 
             #region Database is unmanged resource => solutions
+            #region 1
             // object "db" responsible with connection to database
 
             // Database is unmanged resource => to solve it :
 
-            //1- using CompanyDbContext db = new CompanyDbContext();
+            //1- using CompanyDbContext db = new CompanyDbContext(); 
+            #endregion
 
+            #region 2
             //2- using CompanyDbContext db = new CompanyDbContext()
             //{
 
-            //}
+            //} 
+            #endregion
 
+            #region 3
             //3- try
             //{
 
@@ -25,7 +30,8 @@
             //finally
             //{
             //    db.Dispose();
-            //} 
+            //}  
+            #endregion
             #endregion
 
         }
