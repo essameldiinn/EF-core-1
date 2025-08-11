@@ -6,7 +6,7 @@
         {
             CompanyDbContext db = new CompanyDbContext();
 
-            #region Database is unmanged resource
+            #region Database is unmanged resource => solutions
             // object "db" responsible with connection to database
 
             // Database is unmanged resource => to solve it :

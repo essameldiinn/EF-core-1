@@ -18,6 +18,8 @@ namespace EF_core_1
             optionsBuilder.UseSqlServer(" Server = .; Database = CompanyDb ; Trusted_Connection = true ; TrustServerCertificate = true"); //connection string
         }
 
+        //DbSet
+
         public DbSet<Employee> Emmployees { get; set; }
         public DbSet<Project> Projects { get; set; }
         public DbSet<Department> Departments { get; set; }
